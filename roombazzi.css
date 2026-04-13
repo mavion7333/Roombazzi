@@ -10,8 +10,8 @@ header {
     text-align: center;
 }
 header img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 header p{
     font-size: 12px;
@@ -40,7 +40,9 @@ header .sign{
 
 /*=============================(choose)===================*/
 .choose{
+    padding-top: 2rem;
     text-align: center;
+    background-color: #ffffff;
 }
 .search{
     display: flex;
@@ -48,5 +50,51 @@ header .sign{
     gap: 30px;
     margin-top: 40px;
     padding: 2rem;
+    line-height: 2;
+}
+.search1 i {
+    background: linear-gradient(135deg, rgba(31, 79, 118, 0.15) 0%, rgba(239, 180, 91, 0.2) 100%);
+    height: 36px;
+    width: 36px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #1f4f76;
+}
+.search1 h2{
+    font-size: 20px;
+    color: #101828;
+    font-weight: bold
+}
+.search1 p{
+    color: #101828;
+    font-size: 12px;
 }
 
+/*=============================(find)===================*/
+.find{
+    padding: 2rem 0;
+    background-color: #f4f7f9;
+    text-align: center;
+    line-height: 2;
+    color: #101828;
+}
+.find i{
+    color: #1f4f76;
+    font-size: 25px;
+}
+.find button{
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    background-color: #1f4f76;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+footer img {
+    width: 200px;
+    height: 200px;
+}
