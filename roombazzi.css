@@ -46,10 +46,10 @@ header .sign{
 }
 .search{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
     margin-top: 40px;
-    padding: 2rem;
+    padding: 1.5rem;
     line-height: 2;
 }
 .search1 i {
