@@ -10,37 +10,39 @@ header {
     text-align: center;
 }
 header img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 header p{
-    font-size: 12px;
+    font-size: 15px;
     color: #101828;
     padding: 10px 0;
 }
 header h1{
-    font-size: 35px;
+    font-size: 50px;
     color: #101828;
 }
-header .get{
-    padding: 7px 15px;
+header .get {
+    padding: 10px 26px;
     color: #ffffff;
     background-color: #efb45b;
     border: none;
     border-radius: 5px;
     margin-right: 5px;
+    font-size: 19px;
 }
-header .sign{
-    padding: 7px 15px;
+header .sign {
+    padding: 10px 28px;
     background-color: #1f4f76;
     border: none;
     color: #ffffff;
     border-radius: 5px;
+    font-size: 19px;
 }
 
 /*=============================(choose)===================*/
 .choose{
-    padding-top: 2rem;
+    padding: 2rem 0;
     text-align: center;
     background-color: #ffffff;
 }
@@ -52,22 +54,27 @@ header .sign{
     padding: 1.5rem;
     line-height: 2;
 }
+.choose h1{
+    font-size: 40px;
+    color: #101828;
+}
 .search1 i {
     background: linear-gradient(135deg, rgba(31, 79, 118, 0.15) 0%, rgba(239, 180, 91, 0.2) 100%);
-    height: 36px;
-    width: 36px;
-    padding: 10px;
+    height: 50px;
+    width: 50px;
+    padding: 14px;
     border-radius: 50%;
     color: #1f4f76;
-}
+    font-size: 22px;
+} 
 .search1 h2{
-    font-size: 20px;
+    font-size: 27px;
     color: #101828;
     font-weight: bold
 }
 .search1 p{
     color: #101828;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /*=============================(find)===================*/
@@ -80,21 +87,30 @@ header .sign{
 }
 .find i{
     color: #1f4f76;
-    font-size: 25px;
+    font-size: 40px;
 }
 .find button{
-    padding: 10px 20px;
+    padding: 15px 25px;
     color: #ffffff;
     border: none;
     background-color: #1f4f76;
     border-radius: 5px;
+    font-size: 15px;
+}
+.find h1{
+    font-size: 40px;
+}
+.find p{
+    font-size: 15px;
+    padding: 10px 0;
 }
 footer{
     text-align: center;
     background-color: #1a1a1a;
     color: #ffffff;
+    padding: 20px 0;
 }
 footer img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
