@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="roombazzi.css">
+    <title>Login.com</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="logo">
+            <img src="roombazzi logo.png" alt="">
+        </div>
+        <div class="login-form">
+            <h2>Welcome Back</h2>
+            <form action="submit_login.php" method="POST">
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="your@email.com"><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+                <div class="password"><a href="forgot_password.html">Forgot Password?</a><br></div>
+                <button type="submit">Log In</button><br>
+
+                <div class="hr">
+                    <div class="line"></div>or<div class="line"></div>
+                </div>
+
+                <div class="google"><a href=""><i class="fa-brands fa-google"></i>Continue with Google</a></div>
+                <hr>
+                <div class="para">
+                    <p>Don't have an account? <a href="/Register.html">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
