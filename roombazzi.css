@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: "Manrope", sans-serif;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: "Sora", sans-serif;
 }
@@ -166,10 +168,12 @@ footer img {
 }
 .login-form input {
     width: 350px;
-    height: 30px;
+    /* height: 30px; */
     border-radius: 6px;
     margin-top: 5px;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid rgba(128, 128, 128, 0.467);
 }
 .logo {
@@ -245,10 +249,12 @@ footer img {
 }
 .register-form select {
     width: 350px;
-    height: 30px;
+    /* height: 30px; */
     border-radius: 6px;
     margin-top: 5px;
     padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid rgba(128, 128, 128, 0.467);
 }
 .register-form select option {
