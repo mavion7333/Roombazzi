@@ -239,3 +239,21 @@ footer img {
 .register-form select option {
     color: grey;
 }
+
+/*=============================(forget password)=============================*/
+.forgot-password button{
+    padding: 10px 7.6rem;
+}
+.forgot-password p{
+    text-align: center;
+    padding: 5px 0;
+    color: #1f4f76;
+}
+.forgot-password p a{
+    text-decoration: none;
+    color: #1f4f76;
+}
+.forgot-password .login a{
+    color: grey; 
+    text-decoration: none;
+}
