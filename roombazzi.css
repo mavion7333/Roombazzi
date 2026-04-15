@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Sora", sans-serif;
+}
+p{
+    font-family: "Manrope", sans-serif;
+}
 header {
     background-color: #f4f7f9;
     padding: 20px;
@@ -42,7 +48,7 @@ header .sign {
 
 /*=============================(choose)===================*/
 .choose{
-    padding: 2rem 0;
+    padding: 3rem 0;
     text-align: center;
     background-color: #ffffff;
 }
